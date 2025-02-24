@@ -1,4 +1,4 @@
-#DJ Sets Manager
+# DJ Sets Manager
 
 Weekly music shows manager
 
