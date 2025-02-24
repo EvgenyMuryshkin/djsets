@@ -1,0 +1,5 @@
+{
+    "files": "vite.config.ts",
+    "from": "base: \"/djsets/\"",
+    "to": "base: \"/\""
+}

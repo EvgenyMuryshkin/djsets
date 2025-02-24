@@ -1,0 +1,21 @@
+.youtube-panel {
+    display: flex;
+    margin-bottom: 1em;
+    
+    .youtube-panel-key{
+        flex: 1 1 auto;
+        text-align: start;
+
+        span {
+            font-weight: bold;
+        }
+        
+        .youtube-panel-api-key{
+            width: 300px;
+        }
+    }
+
+    .youtube-panel-controls {
+        flex: 0 0 auto;
+    }
+}

@@ -1,0 +1,45 @@
+{
+  "name": "ds-sets",
+  "private": false,
+  "version": "0.0.0",
+  "type": "module",
+  "license": "MIT",
+  "homepage": "",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "predeploy": "npm run hp-set && npm run build",
+    "deploy": "gh-pages -b gh-pages -d dist && npm run hp-reset",
+    "hp-set": "replace-in-file --configFile=hp.set.json",
+    "hp-reset": "replace-in-file --configFile=hp.reset.json"
+  },
+  "dependencies": {
+    "jwt-decode": "4.0.0",
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
+    "react-github-fork-banner": "1.1.3",
+    "react-icons": "5.4.0",
+    "relative-date": "1.1.3",
+    "uuid": "11.0.5"
+  },
+  "devDependencies": {
+    "@eslint/js": "9.19.0",
+    "@types/dateformat": "5.0.3",
+    "@types/react": "19.0.8",
+    "@types/react-dom": "19.0.3",
+    "@vitejs/plugin-react": "4.3.4",
+    "dateformat": "5.0.3",
+    "eslint": "9.19.0",
+    "eslint-plugin-react-hooks": "5.0.0",
+    "eslint-plugin-react-refresh": "0.4.18",
+    "gh-pages": "6.3.0",
+    "globals": "15.14.0",
+    "replace-in-file": "8.3.0",
+    "sass-embedded": "1.83.4",
+    "typescript": "5.7.2",
+    "typescript-eslint": "8.22.0",
+    "vite": "6.1.0"
+  }
+}

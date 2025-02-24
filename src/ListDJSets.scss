@@ -1,0 +1,83 @@
+.ListDJSets {
+    text-align: start !important;
+
+    table {
+        border-collapse: collapse;
+
+        th {
+            text-align: start !important;        
+            padding-right: 5px;
+        }
+
+        td {
+            border: 1px solid lightgray;
+            padding-left: 5px;
+            padding-right: 5px;
+        }
+
+        .artist {
+            white-space: nowrap !important;
+            width: 200px;
+            input {
+                width: 190px;
+            }
+        }
+        
+        .title {
+            width: 200px;
+            input {
+                width: 190px;
+            }
+        }
+
+        .episode {
+            width: 100px;
+            white-space: nowrap !important;
+
+            input {
+                width: 90px;
+            }
+        }
+
+        .listenDate {
+            width: 130px;
+            white-space: nowrap !important;
+
+            input {
+                width: 120px;
+            }
+        }
+
+        .next {
+            width: 50px;
+        }
+
+        .control-icon {
+            width: 1%;
+            text-align: center;
+        }
+    }
+
+    a {
+        cursor: pointer;
+    }
+
+    .ListDJSetsControls {
+        margin-top: 1em;
+        display: flex;
+
+        .lhs-controls {
+            flex: 1 1 auto;
+            button {
+                margin-right: 10px;
+            }
+        }
+
+        .rhs-controls {
+            flex: 0 0 auto;
+            button {
+                margin-left: 10px;
+            }
+        }
+    }
+}
