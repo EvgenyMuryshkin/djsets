@@ -7,11 +7,15 @@
 
 body {
   font-family: system-ui;
+  background-color: white;
+  color: black;
 }
 
 input {
   font-family: system-ui;
   font-size: 1em;
+  background-color: white;
+  color: rgb(0, 0, 0);
 }
 
 .header {
@@ -66,4 +70,6 @@ button {
   width: 150px;
   padding-left: 5px;
   padding-right: 5px;
+  background-color: rgb(249, 249, 249);
+  color: rgb(0, 0, 0);
 }
