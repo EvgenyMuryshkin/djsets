@@ -1,5 +1,8 @@
 #DJ Sets Manager
 
-![image](https://github.com/user-attachments/assets/a75ae726-f84f-4021-b6e1-642c205789d8)
+Weekly music show manager
+
+![image](https://github.com/user-attachments/assets/3d827c23-9459-4024-987e-fb8c0eeb1fdd)
+
 
 
